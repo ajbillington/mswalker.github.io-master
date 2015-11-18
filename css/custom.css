@@ -147,7 +147,13 @@ header .header-content .header-content-inner p {
 .item-1 {
 	background: url('../images/cats1.jpg');
 	}
-	
+	.imgBox:hover {
+        -moz-box-shadow: 0 0 10px #ccc;
+        -webkit-box-shadow: 0 0 10px #ccc;
+        box-shadow: 0 0 10px #ccc;
+    }
+    </style>
+    <
 .item-2 {
 	background: url('../images/cats2.jpg');
 	}
@@ -429,3 +435,5 @@ img::-moz-selection {
 .bg-primary {
     background-color: pink;
 }
+
+
